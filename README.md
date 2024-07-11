@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @LalonGPT
+- 👋 Hi, I’m @minimalframer
 - 👀 I’m interested in reading
 - 🌱 I’m currently learning Kotlin
 - 💞️ I’m looking to collaborate on Kotlin projects
