@@ -1,26 +1,37 @@
 # 👋 Hi, I'm @minimalframer
 
-👀 I'm interested in reading  
-🌱 I'm currently learning Kotlin  
-💞️ I'm looking to collaborate on Kotlin projects  
-📫 How to reach me: 
-<a href="https://twitter.com/minimalframer" target="_blank">@minimalframer on X</a>, 
-<a href="https://www.linkedin.com/in/minimalframer" target="_blank">minimalframer on LinkedIn</a>
+👀 I’m interested in reading  
+🌱 I’m currently learning Kotlin  
+💞️ I’m looking to collaborate on Kotlin projects  
+📫 How to reach me:  
+[![Twitter Follow](https://img.shields.io/twitter/follow/minimalframer?style=social)](https://twitter.com/minimalframer) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/minimalframer) [![GitHub followers](https://img.shields.io/github/followers/minimalframer?style=social)](https://github.com/minimalframer)
 
-<a href="https://twitter.com/minimalframer" target="_blank">
-  <img src="https://img.shields.io/twitter/follow/minimalframer?style=social" alt="Twitter Follow">
-</a>
-<a href="https://www.linkedin.com/in/minimalframer" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin" alt="LinkedIn">
-</a>
-<a href="https://github.com/minimalframer" target="_blank">
-  <img src="https://img.shields.io/github/followers/minimalframer?style=social" alt="GitHub followers">
-</a>
+---
 
 ## Projects
 
-<!-- START_SECTION:projects -->
-<!-- END_SECTION:projects -->
+### UniversityEduResources
+A collection of educational resources and notes for university courses.
+
+[![GitHub Repo](https://img.shields.io/github/stars/minimalframer/UniversityEduResources?style=social)](https://github.com/minimalframer/UniversityEduResources)
+
+### kotlin-oop
+A repository dedicated to Object-Oriented Programming (OOP) concepts in Kotlin.
+
+[![GitHub Repo](https://img.shields.io/github/stars/minimalframer/kotlin-oop?style=social)](https://github.com/minimalframer/kotlin-oop)
+
+### helloKotlin
+Hello Kotlin: A collection of practice codes and projects from a basic Kotlin course, showcasing my learning journey.
+
+[![GitHub Repo](https://img.shields.io/github/stars/minimalframer/helloKotlin?style=social)](https://github.com/minimalframer/helloKotlin)
+
+---
+
+## About Me
+
+I am passionate about learning and sharing knowledge through coding. Feel free to connect with me on [Twitter](https://twitter.com/minimalframer) and [LinkedIn](https://www.linkedin.com/in/minimalframer).
+
+---
 
 ## Technologies Used
 
