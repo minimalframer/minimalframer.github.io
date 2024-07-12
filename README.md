@@ -10,20 +10,18 @@
 
 ## Projects
 
-### UniversityEduResources
-A collection of educational resources and notes for university courses.
-
-[![GitHub Repo](https://img.shields.io/github/stars/minimalframer/UniversityEduResources?style=social)](https://github.com/minimalframer/UniversityEduResources)
+### helloKotlin
+Hello Kotlin: A collection of practice codes and projects from a basic Kotlin course, showcasing my learning journey.
+[![GitHub Repo](https://img.shields.io/github/stars/minimalframer/helloKotlin?style=social)](https://github.com/minimalframer/helloKotlin)
 
 ### kotlin-oop
 A repository dedicated to Object-Oriented Programming (OOP) concepts in Kotlin.
-
 [![GitHub Repo](https://img.shields.io/github/stars/minimalframer/kotlin-oop?style=social)](https://github.com/minimalframer/kotlin-oop)
 
-### helloKotlin
-Hello Kotlin: A collection of practice codes and projects from a basic Kotlin course, showcasing my learning journey.
+### UniversityEduResources
+A collection of educational resources and notes for university courses.
+[![GitHub Repo](https://img.shields.io/github/stars/minimalframer/UniversityEduResources?style=social)](https://github.com/minimalframer/UniversityEduResources)
 
-[![GitHub Repo](https://img.shields.io/github/stars/minimalframer/helloKotlin?style=social)](https://github.com/minimalframer/helloKotlin)
 
 ---
 
