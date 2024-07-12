@@ -12,13 +12,48 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Generate README
-        run: |
-          echo "# My GitHub Repositories\n" > README.md
-          echo "## Projects\n" >> README.md
-          curl -s "https://api.github.com/users/minimalframer/repos?per_page=5" |
-            jq -r '.[] | "- [**\(.name)**](\(.html_url)): \(.description)"' >> README.md
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Fetch repositories and update README
+        run: |
+          python -c "
+import requests
+import json
+
+# GitHub API URL
+url = 'https://api.github.com/users/minimalframer/repos'
+response = requests.get(url)
+repos = response.json()
+
+# Start writing to README.md
+readme_content = '# 👋 Hi, I\'m @minimalframer\n\n'
+readme_content += '👀 I\'m interested in reading\n🌱 I\'m currently learning Kotlin\n💞️ I\'m looking to collaborate on Kotlin projects\n📫 How to reach me:\n'
+readme_content += '[Twitter](https://twitter.com/minimalframer) | [LinkedIn](https://www.linkedin.com/in/minimalframer)\n\n'
+readme_content += '![Twitter Follow](https://img.shields.io/twitter/follow/minimalframer?style=social)\n'
+readme_content += '![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)\n'
+readme_content += '![GitHub followers](https://img.shields.io/github/followers/minimalframer?style=social)\n\n'
+readme_content += '## Projects\n\n'
+
+for repo in repos:
+    name = repo['name']
+    description = repo.get('description', 'No description available.')
+    url = repo['html_url']
+    readme_content += f'- [{name}]({url}): {description}\n'
+
+readme_content += '## Technologies Used\n\n- **Language**: Kotlin\n\n---\n\nThank you for visiting my GitHub portfolio!\n'
+
+# Write to README.md
+with open('README.md', 'w') as file:
+    file.write(readme_content)
+"
+        
       - name: Commit changes
         run: |
           git config --global user.name 'GitHub Actions'
